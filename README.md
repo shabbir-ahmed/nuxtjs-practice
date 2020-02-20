@@ -1,4 +1,4 @@
-# my-test-app
+# App Using NuxtJS
 
 > My magnificent Nuxt.js project
 
