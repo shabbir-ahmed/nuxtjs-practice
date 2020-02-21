@@ -29,6 +29,7 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/components'
   ],
   /*
   ** Nuxt.js dev-modules
@@ -41,6 +42,13 @@ module.exports = {
   modules: [
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
+    [
+      'storyblok-nuxt',
+      {
+        accessToken: '5DkIkOhpk8C51PeXfGOikgtt',
+        cacheProvider: 'memory'
+      }
+    ]
   ],
   /*
   ** Build configuration
